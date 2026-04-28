@@ -1,0 +1,112 @@
+{
+  "phases": [
+    {
+      "id": 1,
+      "name": "Fase 1 - Conhecimentos Gerais",
+      "color": "green",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A água ferve a 100°C ao nível do mar?",
+          "options": ["Verdadeiro", "Falso"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 2,
+          "question": "O Sol é uma estrela?",
+          "options": ["Verdadeiro", "Falso"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Fase 2 - Ciências",
+      "color": "blue",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A célula é a menor unidade da vida?",
+          "options": ["Verdadeiro", "Falso"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Fase 3 - História",
+      "color": "blue",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A Segunda Guerra Mundial terminou em 1945?",
+          "options": ["Verdadeiro", "Falso"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 2,
+          "question": "O Brasil foi descoberto em 1500?",
+          "options": ["Verdadeiro", "Falso"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Fase 4 - Geografia",
+      "color": "yellow",
+      "questions": [
+        {
+          "id": 1,
+          "question": "O Brasil é o maior país da América do Sul?",
+          "options": ["Verdadeiro", "Falso"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 2,
+          "question": "O Monte Everest é a montanha mais alta do mundo?",
+          "options": ["Verdadeiro", "Falso"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Fase 5 - Matemática",
+      "color": "red",
+      "questions": [
+        {
+          "id": 1,
+          "question": "2 + 2 = 4?",
+          "options": ["Verdadeiro", "Falso"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 2,
+          "question": "O número Pi é aproximadamente 3,14?",
+          "options": ["Verdadeiro", "Falso"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Fase 6 - Cultura Geral",
+      "color": "purple",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A Mona Lisa foi pintada por Leonardo da Vinci?",
+          "options": ["Verdadeiro", "Falso"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 2,
+          "question": "Shakespeare escreveu Romeu e Julieta?",
+          "options": ["Verdadeiro", "Falso"],
+          "correctAnswer": 0
+        }
+      ]
+    }
+  ]
+}

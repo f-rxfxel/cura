@@ -1,0 +1,177 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+:root {
+  --background: #FFFDFB;
+  --foreground: #402925;
+
+  --card: #FFFFFF;
+  --card-foreground: #402925;
+
+  --popover: #FFFFFF;
+  --popover-foreground: #402925;
+
+  /* Identidade CURA */
+  --primary: #E69584; /* rosé pele */
+  --primary-foreground: #FFFFFF;
+
+  --secondary: #7F534A; /* marrom rosado */
+  --secondary-foreground: #FFFFFF;
+
+  --muted: #F6EFEA;
+  --muted-foreground: #8A6A63;
+
+  --accent: #FBE6E1; /* nude suave */
+  --accent-foreground: #7F534A;
+
+  --destructive: #D87C6A; /* vermelho clínico suave */
+  --destructive-foreground: #FFFFFF;
+
+  --border: #E8D6D0;
+  --input: #E8D6D0;
+  --ring: #E69584;
+
+  /* Charts (harmonizados com a paleta) */
+  --chart-1: #E69584;
+  --chart-2: #7F534A;
+  --chart-3: #402925;
+  --chart-4: #F4B1A2;
+  --chart-5: #E8D6D0;
+
+  --radius: 0.625rem;
+
+  /* Sidebar */
+  --sidebar: #FFFDFB;
+  --sidebar-foreground: #402925;
+  --sidebar-primary: #7F534A;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #FBE6E1;
+  --sidebar-accent-foreground: #7F534A;
+  --sidebar-border: #E8D6D0;
+  --sidebar-ring: #E69584;
+
+  /* Game feedback */
+  --success: #8FBFA8;  /* verde suave */
+  --error: #E08A7A;    /* rosé de alerta */
+  --warning: #EBC27A;  /* amarelo quente */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Added custom color tokens */
+  --color-success: var(--success);
+  --color-error: var(--error);
+  --color-warning: var(--warning);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 4px;
+}
+
+/* Animations */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(255, 0, 110, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 0, 110, 0.6);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-bounce-in {
+  animation: bounce-in 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
