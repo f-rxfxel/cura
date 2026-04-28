@@ -11,12 +11,56 @@ import { saveProgress, getProgress } from '../../lib/game-storage'
 import {
   calculatePercentage,
   hasPassedPhase,
-  getPhaseColorClass,
   shuffleQuestion,
 } from '../../lib/game-logic'
 import type { GameData, Phase, Question } from '../../lib/game-logic'
 import questionsData from '../../data/questions.json'
 import { CheckCircle2, XCircle, ArrowRight } from 'lucide-react'
+
+type QuestionImageProps = {
+  url: string
+  alt: string
+}
+
+function resolveQuestionImageUrl(url: string): string {
+  if (
+    url.startsWith('http://') ||
+    url.startsWith('https://') ||
+    url.startsWith('/') ||
+    url.startsWith('data:') ||
+    url.startsWith('blob:')
+  ) {
+    return url
+  }
+
+  return `/${url.replace(/^\.\//, '')}`
+}
+
+function QuestionImage({ url, alt }: QuestionImageProps) {
+  const [hasError, setHasError] = useState(false)
+  const resolvedUrl = resolveQuestionImageUrl(url)
+
+  if (hasError) {
+    return (
+      <figure className='w-fit mx-auto rounded-xl border border-border bg-muted/40 p-4 text-center'>
+        <div className='mx-auto flex h-40 w-56 items-center justify-center rounded-lg border border-dashed border-border/70 bg-background text-sm text-muted-foreground'>
+          Imagem indisponível
+        </div>
+      </figure>
+    )
+  }
+
+  return (
+    <figure className='w-fit mx-auto text-center'>
+      <img
+        src={resolvedUrl}
+        alt={alt}
+        className='block max-h-56 max-w-full object-contain rounded-xl border border-border bg-background'
+        onError={() => setHasError(true)}
+      />
+    </figure>
+  )
+}
 
 export default function GamePage() {
   const router = useRouter()
@@ -302,6 +346,17 @@ export default function GamePage() {
                 />
               </div>
             </div>
+            {currentQuestion.images && currentQuestion.images.length > 0 && (
+              <div className='mb-4 grid grid-cols-1 md:grid-cols-2 gap-4'>
+                {currentQuestion.images.map((img, idx) => (
+                  <QuestionImage
+                    key={`${img.url}-${idx}`}
+                    url={img.url}
+                    alt={img.alt}
+                  />
+                ))}
+              </div>
+            )}
             {showingQuestion ? (
               <div className='flex justify-center'>
                 <Button

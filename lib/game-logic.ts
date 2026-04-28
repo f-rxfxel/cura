@@ -4,6 +4,11 @@ export interface Question {
   question: string
   options: string[]
   correctAnswer: number
+  images?: {
+    url: string
+    alt: string
+    caption?: string
+  }[]
 }
 
 export interface Phase {

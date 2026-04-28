@@ -2,670 +2,356 @@
   "phases": [
     {
       "id": 1,
-      "name": "Fase 1 - Fisiologia Vascular",
-      "color": "green",
+      "name": "Avaliação e Limpeza de Feridas",
+      "color": "#4A90E2",
       "questions": [
         {
           "id": 1,
-          "reference": "Santos CT, da Silva C, dos Santos MR, Bridi AC, Louro TQ, Fraga CM. Efetividade do cateter central de inserção periférica na terapia intravenosa em pediatria: revisão sistemática e meta-análise. Rev Enferm Atual In Derme. 2024;98(2): e024330 doi.org/10.31011/reaid-2024-v.98-n.2-art.1712",
-          "question": "Anatomia aplicada! Qual a veia utilizada na inserção do CURA?",
+          "reference": "2",
+          "question": "Quais são os principais aspectos a serem avaliados em uma ferida?",
           "options": [
-            "Veia periférica, como basílica ou cefálica, com extremidade do cateter em veia cava superior.",
-            "Veia central, como subclávia, com dissecção cirúrgica."
+            "Localização da ferida, Tamanho (comprimento, largura e profundidade), Tipo de tecido (necrose, esfacelo, granulação, epitelização), Tipo e quantidade de exsudato, Sinais de infecção e Condição da pele ao redor da ferida",
+            "Apenas a dor referida pelo paciente e a presença de sangramento.",
+            "A idade do paciente e o tempo de evolução da lesão.",
+            "Apenas a coloração da ferida e a temperatura corporal do paciente."
           ],
-          "correctAnswer": 0
+          "correctAnswer": 0,
+          "images": [
+            {
+              "url": "data/images/image1-1.jpg",
+              "alt": "Mensurador de feridas sobre lesão",
+              "caption": "Uso de mensurador para avaliar dimensões da ferida"
+            },
+            {
+              "url": "data/images/image1-2.jpg",
+              "alt": "Régua graduada sobre lesão em membro inferior",
+              "caption": "Avaliação de comprimento e largura"
+            },
+            {
+              "url": "data/images/image1-3.jpg",
+              "alt": "Avaliação de profundidade com sonda",
+              "caption": "Técnica de medição de profundidade"
+            }
+          ]
         },
         {
           "id": 2,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Posicionamento correto! O residente te pergunta sobre o local ideal de posicionamento da ponta do CURA. Qual a resposta correta?",
+          "reference": "7",
+          "question": "Antes de realizar a limpeza da ferida, por que é importante avaliá-la?",
           "options": [
-            "O cateter é diretamente introduzido na veia cava superior por técnica cirúrgica.",
-            "O cateter é inserido por veia periférica e sua ponta deve estar localizada na junção da veia cava superior com o átrio direito."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 3,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Radiografia em mãos! A ponta do cateter aparece posicionada no terço médio da veia cava superior. Qual a avaliação?",
-          "options": [
-            "A veia cava superior é o local ideal para a extremidade distal do CURA.",
-            "A ponta deve estar em qualquer parte da subclávia, pois é mais superficial e fácil de controlar."
+            "Durante a avaliação da lesão, o profissional identificará os tipos de tecidos, quantidade e características do exsudato, sinais de infecção e presença de sinais cardinais de infecção.",
+            "Para decidir qual tipo de curativo estético será utilizado.",
+            "Para determinar apenas se o paciente precisa de analgesia antes do procedimento.",
+            "Para verificar somente o tamanho da lesão e registrar no prontuário."
           ],
           "correctAnswer": 0
         },
         {
-          "id": 4,
-          "reference": "Santos CT, da Silva C, dos Santos MR, Bridi AC, Louro TQ, Fraga CM. Efetividade do cateter central de inserção periférica na terapia intravenosa em pediatria: revisão sistemática e meta-análise. Rev Enferm Atual In Derme. 2024;98(2): e024330 doi.org/10.31011/reaid-2024-v.98-n.2-art.1712",
-          "question": "Fisiologia aplicada! A função principal do sistema vascular é:",
+          "id": 3,
+          "reference": "12",
+          "question": "Quais são os sinais de infecção em uma ferida que devem ser monitorados?",
           "options": [
-            "Produzir células sanguíneas",
-            "Transportar sangue, nutrientes e gases"
+            "Vermelhidão ao redor da ferida, Calor local, Dor, Edema, Presença de exsudato purulento e Odor",
+            "Diminuição da sensibilidade ao redor da ferida e ausência de secreção.",
+            "Formação de crosta seca e redução do tamanho da lesão.",
+            "Presença de tecido epitelial e ausência de edema."
           ],
-          "correctAnswer": 1
+          "correctAnswer": 0,
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/ai-content/images/main/ferida_infeccao_1.jpg",
+              "alt": "Ferida aberta com fixador externo e sinais de secreção",
+              "caption": "Sinais clínicos de infecção local"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/ai-content/images/main/ferida_infeccao_2.jpg",
+              "alt": "Lesão com hiperemia perilesional e exsudato",
+              "caption": "Sinais cardinais de inflamação e infecção"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "reference": "17",
+          "question": "Quais os tipos de tecidos presentes na ferida?",
+          "options": [
+            "Tecido de granulação, Tecido necrótico, Esfacelo, Tecido epitelial",
+            "Tecido adiposo, muscular e cartilaginoso.",
+            "Tecido conjuntivo profundo e tecido ósseo.",
+            "Tecido nervoso periférico e tecido linfático."
+          ],
+          "correctAnswer": 0,
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/ai-content/images/main/tecido_misto_1.jpg",
+              "alt": "Ferida no calcanhar com necrose e granulação",
+              "caption": "Identificação de diferentes tipos de tecidos"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/ai-content/images/main/tecido_granulacao.jpg",
+              "alt": "Ferida com tecido de granulação vermelho vivo",
+              "caption": "Presença predominante de tecido de granulação"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/ai-content/images/main/tecido_esfacelo.jpg",
+              "alt": "Ferida com presença de esfacelo amarelado",
+              "caption": "Identificação de esfacelo em região genital"
+            }
+          ]
         },
         {
           "id": 5,
-          "reference": "Santos CT, da Silva C, dos Santos MR, Bridi AC, Louro TQ, Fraga CM. Efetividade do cateter central de inserção periférica na terapia intravenosa em pediatria: revisão sistemática e meta-análise. Rev Enferm Atual In Derme. 2024;98(2): e024330 doi.org/10.31011/reaid-2024-v.98-n.2-art.1712",
-          "question": "Atualização científica! Qual é a principal função das artérias?",
+          "reference": "22",
+          "question": "Quais os tipos de exsudato presentes em uma ferida?",
           "options": [
-            "Levar o sangue do coração para os tecidos",
-            "Levar o sangue dos tecidos para o coração"
+            "Exsudato seroso, Exsudato sanguinolento, Exsudato serossanguinolento, Exsudato purulento e Exsudato fibrinoso",
+            "Exsudato seco, espesso e sólido.",
+            "Exsudato cristalizado e escamoso.",
+            "Exsudato mucoso e gasoso."
           ],
           "correctAnswer": 0
         },
         {
           "id": 6,
-          "reference": "Santos CT, da Silva C, dos Santos MR, Bridi AC, Louro TQ, Fraga CM. Efetividade do cateter central de inserção periférica na terapia intravenosa em pediatria: revisão sistemática e meta-análise. Rev Enferm Atual In Derme. 2024;98(2): e024330 doi.org/10.31011/reaid-2024-v.98-n.2-art.1712",
-          "question": "Fisiologia aplicada! Qual vaso possui válvulas que ajudam no retorno do sangue ao coração?",
+          "reference": "27",
+          "question": "Quais são as etapas para a limpeza de uma ferida?",
           "options": [
-            "Veias",
-            "Artérias"
-          ],
-          "correctAnswer": 0
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Fase 2 — Definição do Cateter CURA",
-      "color": "blue",
-      "questions": [
-        {
-          "id": 1,
-          "reference": "Cano JBO, et al. Acesso Venoso Central: Revisão Atualizada das Indicações e Técnicas. Brazilian Journal of Implantology and Health Sciences.2024; 6(3): 1705-1718. Doi: https://doi.org/10.36557/2674-8169.2024v6n3p1705-1718.",
-          "question": "Plantão começou! Chegou um novo paciente com indicação de terapia intravenosa prolongada. O médico prescreveu ‘acesso venoso central por via periférica’. O que o enfermeiro deve compreender por isso?",
-          "options": [
-            "Um acesso periférico tradicional, exclusivo para hidratação e antibióticos leves.",
-            "Um CURA: cateter inserido em veia periférica com a ponta posicionada em veia central, ideal para terapias de longa duração."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 2,
-          "reference": "Ferreira CP, Querido DL, Christoffel MM, Almeida VS, Andrade M, Leite HC. The use of peripherally inserted central venous catheter in the Neonatal Intensive Care Unit. Rev. Eletr. Enferm.2020;22:56923. Doi.org/10.5216/rev. v22.56923. ",
-          "question": "Comparando opções! Por que escolher o CURA e não um cateter central por punção de subclávia?",
-          "options": [
-            "O CURA tem as mesmas complicações dos acessos centrais e só é indicado se o paciente não tolerar o acesso periférico comum.",
-            "O CURA tem menor risco de pneumotórax, pode ser inserido à beira-leito e é mais confortável ao paciente."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 3,
-          "reference": "Cano JBO, et al. Acesso Venoso Central: Revisão Atualizada das Indicações e Técnicas. Brazilian Journal of Implantology and Health Sciences.2024; 6(3): 1705-1718. Doi: https://doi.org/10.36557/2674-8169.2024v6n3p1705-1718.",
-          "question": "Trabalho em equipe! Quem deve estar envolvido no manejo do CURA?",
-          "options": [
-            "Enfermeiros, médicos e farmacêuticos — todos com papel definido na segurança do uso.",
-            "Apenas o médico prescreve e gerencia o cateter, os outros só acompanham."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 4,
-          "reference": "Cano JBO, et al. Acesso Venoso Central: Revisão Atualizada das Indicações e Técnicas. Brazilian Journal of Implantology and Health Sciences.2024; 6(3): 1705-1718. Doi: https://doi.org/10.36557/2674-8169.2024v6n3p1705-1718.",
-          "question": "Alerta de erro! ‘O CURA é um cateter simples de curta permanência, inserido em qualquer veia periférica.’ O que responder?",
-          "options": [
-            "Está errado. O CURA é um cateter de longa permanência, com extremidade final em veia central.",
-            "Correto! É um acesso fácil, usado para infusão de soro em curto prazo."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 5,
-          "reference": "Ferreira CP, Querido DL, Christoffel MM, Almeida VS, Andrade M, Leite HC. The use of peripherally inserted central venous catheter in the Neonatal Intensive Care Unit. Rev. Eletr. Enferm.2020;22:56923. Doi.org/10.5216/rev. v22.56923. ",
-          "question": "Documentação segura! Terminou a inserção do CURA. O que deve ser registrado?",
-          "options": [
-            "Nenhum registro específico é necessário. Basta anotar ‘acesso venoso realizado’.",
-            "Veia puncionada, tipo e calibre do cateter, data, nome do profissional, intercorrências e cuidados planejados."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 6,
-          "reference": "Ferreira CP, Querido DL, Christoffel MM, Almeida VS, Andrade M, Leite HC. The use of peripherally inserted central venous catheter in the Neonatal Intensive Care Unit. Rev. Eletr. Enferm.2020;22:56923. Doi.org/10.5216/rev. v22.56923. ",
-          "question": "Qual a melhor conduta? Paciente com veias periféricas difíceis. O CURA pode ser indicado?",
-          "options": [
-            "Sim, ajuda a evitar múltiplas punções e é um recurso respaldado legalmente ao enfermeiro capacitado.",
-            "Não, o CURA exige centro cirúrgico e só deve ser realizado por cirurgião vascular."
+            "Higienização das mãos, Uso de luvas, Preparação dos materiais, Escolha da técnica e da solução conforme avaliação.",
+            "Aplicação imediata de pomada antes da limpeza.",
+            "Cobrir a lesão diretamente com gaze estéril sem avaliação prévia.",
+            "Lavar a ferida apenas com água corrente e secar com compressa."
           ],
           "correctAnswer": 0
         },
         {
           "id": 7,
-          "reference": "Ferreira CP, Querido DL, Christoffel MM, Almeida VS, Andrade M, Leite HC. The use of peripherally inserted central venous catheter in the Neonatal Intensive Care Unit. Rev. Eletr. Enferm.2020;22:56923. Doi.org/10.5216/rev. v22.56923. ",
-          "question": "Verdadeiro ou Falso? Sobre o CURA em neonatologia: (1) Indicado para RN prematuros com nutrição venosa prolongada. (2) Só pode ser usado com infusão contínua. (3) A veia basílica é preferida. (4) Todos os CURAs são de silicone e sem guia.",
-          "options": ["V – F – V – F", "V – V – F – V"],
+          "reference": "32",
+          "question": "Por que é importante realizar a limpeza da ferida com técnicas adequadas?",
+          "options": [
+            "Remoção de corpos estranhos, bactérias, exsudato e resíduos de agentes tópicos.",
+            "Para reduzir imediatamente o tamanho da lesão.",
+            "Para evitar a formação de qualquer tipo de tecido cicatricial.",
+            "Para melhorar apenas o aspecto estético da ferida."
+          ],
           "correctAnswer": 0
         },
         {
           "id": 8,
-          "reference": "Ferreira CP, Querido DL, Christoffel MM, Almeida VS, Andrade M, Leite HC. The use of peripherally inserted central venous catheter in the Neonatal Intensive Care Unit. Rev. Eletr. Enferm.2020;22:56923. Doi.org/10.5216/rev. v22.56923. ",
-          "question": "Atualização científica! O que recomenda a INS sobre o uso do CURA?",
+          "reference": "37",
+          "question": "Como deve ser realizada a irrigação da ferida?",
           "options": [
-            "É indicado para infusão de soluções irritantes, vesicantes, de pH extremos e alta osmolaridade.",
-            "Serve apenas para soluções isotônicas com pH entre 6 e 8."
+            "A irrigação deve ser feita com uma seringa 40x12 e soro fisiológico, mantendo uma distância de aproximadamente 15 cm da ferida.",
+            "Utilizando compressão com gaze embebida em álcool.",
+            "Aplicando solução diretamente do frasco sobre a ferida.",
+            "Lavando a lesão com água corrente da torneira."
+          ],
+          "correctAnswer": 0,
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/ai-content/images/main/irrigacao_1.jpg",
+              "alt": "Irrigação de ferida com seringa e agulha",
+              "caption": "Técnica de limpeza por irrigação"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/ai-content/images/main/irrigacao_2.jpg",
+              "alt": "Irrigação de cavidade com soro",
+              "caption": "Uso de jato sob pressão para limpeza"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "reference": "42",
+          "question": "Por que é importante evitar realizar a limpeza da ferida com tecido de granulação utilizando gazes ou compressas?",
+          "options": [
+            "Destrói a formação do tecido de granulação (fibroblastos e angiogênese) presente na lesão.",
+            "Porque pode aumentar a temperatura local da ferida.",
+            "Porque pode alterar a coloração da pele ao redor da lesão.",
+            "Porque pode provocar aumento imediato do exsudato seroso."
           ],
           "correctAnswer": 0
         },
         {
-          "id": 9,
-          "reference": "Cano JBO, et al. Acesso Venoso Central: Revisão Atualizada das Indicações e Técnicas. Brazilian Journal of Implantology and Health Sciences.2024; 6(3): 1705-1718. Doi: https://doi.org/10.36557/2674-8169.2024v6n3p1705-1718.",
-          "question": "Anatomia aplicada! Qual a via utilizada na inserção do CURA?",
-          "options": [
-            "Veia central, como subclávia, com dissecção cirúrgica.",
-            "Veia periférica, como basílica ou cefálica, com extremidade do cateter em veia cava superior."
-          ],
-          "correctAnswer": 1
-        },
-        {
           "id": 10,
-          "reference": "Cano JBO, et al. Acesso Venoso Central: Revisão Atualizada das Indicações e Técnicas. Brazilian Journal of Implantology and Health Sciences.2024; 6(3): 1705-1718. Doi: https://doi.org/10.36557/2674-8169.2024v6n3p1705-1718.",
-          "question": "Duração da terapia: curto ou longo prazo?",
+          "reference": "47",
+          "question": "Qual a solução recomendada para a limpeza de feridas com presença de tecido de granulação?",
           "options": [
-            "O CURA é ideal para terapias superiores a 6 dias, especialmente em uso de antibióticos venosos ou nutrição parenteral.",
-            "O CURA deve ser usado apenas em terapias com até 3 dias de duração."
+            "Solução salina (soro fisiológico) e PHMB (Polihexametileno Biguanida)",
+            "Álcool etílico 70%.",
+            "Água oxigenada em alta concentração.",
+            "Solução iodada diretamente sobre o tecido."
           ],
           "correctAnswer": 0
         },
         {
           "id": 11,
-          "reference": "Cano JBO, et al. Acesso Venoso Central: Revisão Atualizada das Indicações e Técnicas. Brazilian Journal of Implantology and Health Sciences.2024; 6(3): 1705-1718. Doi: https://doi.org/10.36557/2674-8169.2024v6n3p1705-1718.",
-          "question": "Quem pode realizar o procedimento?",
+          "reference": "51",
+          "question": "Quando deve-se usar soluções antissépticas na limpeza de feridas?",
           "options": [
-            "Enfermeiros e médicos com capacitação específica e certificação conforme protocolos institucionais.",
-            "Qualquer técnico com experiência pode realizar a inserção após observar o procedimento."
+            "Somente em feridas com sinais de infecção e presença de exsudato purulento.",
+            "Em todas as feridas independentemente da avaliação clínica.",
+            "Apenas quando a ferida apresenta sangramento ativo.",
+            "Sempre que o paciente referir dor intensa no local."
           ],
           "correctAnswer": 0
         },
         {
           "id": 12,
-          "reference": "Cano JBO, et al. Acesso Venoso Central: Revisão Atualizada das Indicações e Técnicas. Brazilian Journal of Implantology and Health Sciences.2024; 6(3): 1705-1718. Doi: https://doi.org/10.36557/2674-8169.2024v6n3p1705-1718.",
-          "question": "Finalizando a fase! Qual profissional pode inserir o CURA com respaldo legal?",
+          "reference": "56",
+          "question": "Como deve ser feita a remoção do curativo antigo?",
           "options": [
-            "Apenas o médico, pois se trata de procedimento invasivo e de risco elevado.",
-            "Médico ou enfermeiro capacitado, conforme legislação e diretrizes clínicas."
-          ],
-          "correctAnswer": 1
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Fase 3 — Indicação de Inserção do Cateter CURA",
-      "color": "brown",
-      "questions": [
-        {
-          "id": 1,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Escolha estratégica! Qual veia é a mais adequada para inserção do CURA?",
-          "options": [
-            "Veias de bom calibre e superficiais, como a basílica ou cefálica, por facilitarem o avanço e reduzirem o risco de trombose.",
-            "Qualquer veia periférica serve, independentemente de profundidade ou tortuosidade."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 2,
-          "reference": "Santos CT, da Silva C, dos Santos MR, Bridi AC, Louro TQ, Fraga CM. Efetividade do cateter central de inserção periférica na terapia intravenosa em pediatria: revisão sistemática e meta-análise. Rev Enferm Atual In Derme. 2024;98(2): e024330 doi.org/10.31011/reaid-2024-v.98-n.2-art.1712",
-          "question": "Posicionamento correto! Onde deve estar a ponta do CURA?",
-          "options": [
-            "Na junção da veia cava superior com o átrio direito, após inserção por veia periférica.",
-            "Diretamente introduzida na veia cava superior por técnica cirúrgica."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 3,
-          "reference": "Ferreira CP, Querido DL, Christoffel MM, Almeida VS, Andrade M, Leite HC. The use of peripherally inserted central venous catheter in the Neonatal Intensive Care Unit. Rev. Eletr. Enferm.2020;22:56923. Doi.org/10.5216/rev. v22.56923. ",
-          "question": "Indicação clínica! Qual paciente é o mais adequado para inserção do CURA?",
-          "options": [
-            "Paciente que fará uso de antibióticos EV por mais de 6 dias, nutrição parenteral e medicações irritantes.",
-            "Paciente que necessita apenas de soro glicosado 5% por dois dias e já possui acesso periférico funcionante."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 4,
-          "reference": "Santos CT, da Silva C, dos Santos MR, Bridi AC, Louro TQ, Fraga CM. Efetividade do cateter central de inserção periférica na terapia intravenosa em pediatria: revisão sistemática e meta-análise. Rev Enferm Atual In Derme. 2024;98(2): e024330 doi.org/10.31011/reaid-2024-v.98-n.2-art.1712",
-          "question": "Escolha o melhor caso clínico para indicar o CURA:",
-          "options": [
-            "Recém-nascido prematuro extremo em nutrição parenteral total por tempo indeterminado.",
-            "Adulto saudável em hidratação venosa leve durante 24 horas."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 5,
-          "reference": "Santos CT, da Silva C, dos Santos MR, Bridi AC, Louro TQ, Fraga CM. Efetividade do cateter central de inserção periférica na terapia intravenosa em pediatria: revisão sistemática e meta-análise. Rev Enferm Atual In Derme. 2024;98(2): e024330 doi.org/10.31011/reaid-2024-v.98-n.2-art.1712",
-          "question": "Avaliação da prescrição! Noradrenalina e antibióticos vesicantes por 10 dias. O que fazer?",
-          "options": [
-            "Manter veia periférica e revezar o acesso diariamente para evitar flebite.",
-            "Avaliar a indicação do CURA por permitir infusão de drogas vasoativas com monitoramento adequado."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 6,
-          "reference": "Santos CT, da Silva C, dos Santos MR, Bridi AC, Louro TQ, Fraga CM. Efetividade do cateter central de inserção periférica na terapia intravenosa em pediatria: revisão sistemática e meta-análise. Rev Enferm Atual In Derme. 2024;98(2): e024330 doi.org/10.31011/reaid-2024-v.98-n.2-art.1712",
-          "question": "Indicação neonatal! RN prematuro em uso de soluções hipertônicas há 5 dias. Indicar CURA?",
-          "options": [
-            "Sim, o CURA é indicado em neonatos que necessitam de infusões prolongadas ou irritantes.",
-            "Não, CURA não é indicado em neonatologia devido ao alto risco de complicações vasculares."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 7,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Revisão da literatura! Qual é contraindicação relativa à inserção de CURA?",
-          "options": [
-            "Necessidade de antibióticos EV por 10 dias.",
-            "Presença de trombose venosa no membro superior."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 8,
-          "reference": "Soares HRB, et al. Elaboração de cartilha educativa para paciente adulto em uso do cateter central de inserção periférica. Revista Enfermagem Atual In Derme.2024, 98(2): e024315-e024315. doi.org/10.31011/reaid-2024-v.98-n.2",
-          "question": "Interconsulta médica! Paciente oncológico inicia quimioterapia EV sem acesso estável. Melhor conduta?",
-          "options": [
-            "Indicação de CURA, por ser seguro para infusão de quimioterápicos vesicantes.",
-            "Cateterismo venoso central de emergência pela jugular a cada ciclo."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 9,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Desafio rápido! Indique a alternativa CORRETA sobre as indicações do CURA:",
-          "options": [
-            "Terapias de média ou longa duração, infusão de substâncias irritantes, pH extremo, ou quando o acesso venoso periférico está exaurido.",
-            "Acesso exclusivo para infusão de glicose, vitaminas e eletrólitos leves, com duração inferior a 3 dias."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 10,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Transferência com necessidade de infusão contínua de vancomicina. O que recomenda?",
-          "options": [
-            "Manter acesso periférico com trocas a cada 24h.",
-            "Avaliação para inserção de CURA, por ser antibiótico vesicante que requer acesso seguro e duradouro."
-          ],
-          "correctAnswer": 1
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Fase 4 — Técnica da Passagem do Cateter CURA",
-      "color": "yellow",
-      "questions": [
-        {
-          "id": 1,
-          "reference": "Freitas K Ribeiro L, Lima L, Beleza L, Santana G Nascimento, L, Schardosim J. Uso de ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos: Utilização da ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos. Concílio.2024, 24 (11), 281-294. Doi: 10.53660/CLM-3533-24L02",
-          "question": "Preparação do campo! Antes da inserção do CURA, o que deve ser rigorosamente seguido?",
-          "options": [
-            "Técnica asséptica com uso de barreiras máximas: touca, máscara, campo estéril, avental estéril e luvas estéreis.",
-            "Apenas uso de luvas de procedimento, pois o procedimento é de baixa complexidade."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 2,
-          "reference": "Freitas K Ribeiro L, Lima L, Beleza L, Santana G Nascimento, L, Schardosim J. Uso de ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos: Utilização da ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos. Concílio.2024, 24 (11), 281-294. Doi: 10.53660/CLM-3533-24L02",
-          "question": "Medida certa! Como calcular o comprimento adequado do cateter antes da inserção?",
-          "options": [
-            "Medir a distância do local de punção até a cabeça da clavícula direita quando o acesso for por membros superiores.",
-            "Utilizar a mesma medida padrão para todos os pacientes, pois não há variação anatômica relevante."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 3,
-          "reference": "Freitas K Ribeiro L, Lima L, Beleza L, Santana G Nascimento, L, Schardosim J. Uso de ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos: Utilização da ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos. Concílio.2024, 24 (11), 281-294. Doi: 10.53660/CLM-3533-24L02",
-          "question": "Posicionamento correto! Após a inserção do CURA, qual deve ser o próximo passo obrigatório antes do uso?",
-          "options": [
-            "Liberar imediatamente para uso, desde que não houve intercorrências durante a punção.",
-            "Solicitar imagem (radiografia de tórax ou ECG intracavitário) para confirmar a posição da ponta do cateter."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 4,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Situação simulada! Ponta muito proximal à subclávia após exame. Qual conduta?",
-          "options": [
-            "Recuar ou avançar o cateter conforme orientação, mantendo esterilidade durante o ajuste.",
-            "Deixar como está, pois já está em veia de grande calibre."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 5,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Detecção rápida! Resistência para o avanço do cateter. O que fazer?",
-          "options": [
-            "Aplicar pressão para vencer a resistência, comum em veias colapsadas.",
-            "Suspender o procedimento e reavaliar o trajeto com nova punção ou imagem, evitando forçar o cateter."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 6,
-          "reference": "Cano JBO, et al. Acesso Venoso Central: Revisão Atualizada das Indicações e Técnicas. Brazilian Journal of Implantology and Health Sciences.2024; 6(3): 1705-1718. Doi: https://doi.org/10.36557/2674-8169.2024v6n3p1705-1718.",
-          "question": "Escolha do cateter! Criança com 5 kg em UTI pediátrica, qual característica?",
-          "options": [
-            "Cateter de calibre reduzido (2 Fr), em silicone ou poliuretano, compatível com a veia e terapia.",
-            "Cateter de duplo lúmen e maior calibre para múltiplas infusões, independentemente do peso."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 7,
-          "reference": "Soares HRB, et al. Elaboração de cartilha educativa para paciente adulto em uso do cateter central de inserção periférica. Revista Enfermagem Atual In Derme.2024, 98(2): e024315-e024315. doi.org/10.31011/reaid-2024-v.98-n.2",
-          "question": "Auxílio na inserção em adulto. O que não pode faltar?",
-          "options": [
-            "Avaliação prévia do local de punção e checklist de segurança.",
-            "Apenas experiência prévia do profissional, dispensando checklist."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 8,
-          "reference": "Freitas K Ribeiro L, Lima L, Beleza L, Santana G Nascimento, L, Schardosim J. Uso de ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos: Utilização da ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos. Concílio.2024, 24 (11), 281-294. Doi: 10.53660/CLM-3533-24L02",
-          "question": "Radiografia em mãos! Ponta no terço médio da veia cava superior. Avaliação?",
-          "options": [
-            "Incorreta. A ponta deve estar em qualquer parte da subclávia por ser mais superficial.",
-            "Correta. A veia cava superior é o local ideal para a extremidade distal do CURA."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 9,
-          "reference": "Freitas K Ribeiro L, Lima L, Beleza L, Santana G Nascimento, L, Schardosim J. Uso de ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos: Utilização da ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos. Concílio.2024, 24 (11), 281-294. Doi: 10.53660/CLM-3533-24L02",
-          "question": "Evento adverso! Tosse e desconforto torácico durante a inserção. O que suspeitar?",
-          "options": [
-            "Mau posicionamento da ponta do cateter com possível migração para o átrio ou outra estrutura sensível.",
-            "Reação ansiosa, sem relação com a posição do cateter."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 10,
-          "reference": "Freitas K Ribeiro L, Lima L, Beleza L, Santana G Nascimento, L, Schardosim J. Uso de ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos: Utilização da ultrassonografia aplicada ao cateter central de inserção periférica em recém-nascidos. Concílio.2024, 24 (11), 281-294. Doi: 10.53660/CLM-3533-24L02",
-          "question": "Após a inserção, ao tentar lavar o CURA, não há refluxo sanguíneo. O que fazer?",
-          "options": [
-            "Retirar o cateter, pois está totalmente obstruído.",
-            "Avaliar o posicionamento com imagem e testar permeabilidade com técnica asséptica."
-          ],
-          "correctAnswer": 0
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Fase 5 — Cuidados de Manutenção do Cateter CURA",
-      "color": "red",
-      "questions": [
-        {
-          "id": 1,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Antes de qualquer coisa! Vai administrar antibiótico por um CURA. Qual é o primeiro passo?",
-          "options": [
-            "Higienizar as mãos rigorosamente, preparar a medicação e utilizar técnica asséptica durante todo o processo.",
-            "Apenas calçar luvas de procedimento e conectar a seringa sem manipulação do curativo."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 2,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Obstrução à vista! Refluxo ausente e dificuldade na infusão. Qual conduta correta?",
-          "options": [
-            "Lavar com salina sem forçar, aspirar cuidadosamente e verificar refluxo. Persistindo, comunicar equipe médica.",
-            "Injetar com força, pois é comum o cateter estar colapsado após repouso."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 3,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Compatibilidade em jogo! Administrar dois medicamentos EV em sequência pelo CURA. O que fazer?",
-          "options": [
-            "Administrar em sequência, sem lavagem, desde que ambos sejam diluídos.",
-            "Verificar compatibilidade, realizar flushing entre as infusões com até 2x o prime do cateter com SF 0,9%, e usar seringa adequada."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 4,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Sangramento inesperado! Presença de sangue no curativo recém-trocado. O que fazer?",
-          "options": [
-            "Ignorar e aguardar nova troca de curativo no dia seguinte.",
-            "Avaliar volume e origem, aplicar compressão leve e monitorar sinais de deslocamento ou infecção."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 5,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Segurança no curativo! Curativo parcialmente descolado após banho. Conduta?",
-          "options": [
-            "Retirar o curativo, realizar antissepsia rigorosa e aplicar novo curativo estéril e transparente.",
-            "Apenas reforçar com esparadrapo, se não estiver visivelmente sujo."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 6,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Prevenção de trombose! Como garantir fluxo adequado e evitar eventos trombóticos?",
-          "options": [
-            "Heparinização constante sem prescrição médica para evitar coagulação do lúmen.",
-            "Lavar com SF após cada uso, manter o paciente hidratado e monitorar fluxo e refluxo do cateter."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 7,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Frequência da troca! Em relação ao curativo do CURA, qual intervalo deve ser respeitado?",
-          "options": [
-            "Somente em caso de sujidade, umidade ou descolamento.",
-            "Trocar apenas quando solicitado pelo paciente ou se houver febre."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 8,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Prevenção de infecção! Qual prática reduz significativamente o risco de IPCS ao manipular o CURA?",
-          "options": [
-            "Apenas uso de luvas de procedimento e evitar contato com o local da punção.",
-            "Higienização rigorosa das mãos, antissepsia das conexões e técnica estéril em todas as manipulações."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 9,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Uso de seringas! Por que utilizar seringas ≥ 10 mL para lavar o CURA?",
-          "options": [
-            "Seringas menores geram maior pressão interna, podendo danificar o lúmen do cateter.",
-            "É apenas uma padronização hospitalar sem impacto clínico."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 10,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Dor no membro! Dor no braço em repouso e calor local. Qual conduta?",
-          "options": [
-            "Investigar sinais de flebite ou TVP, comunicar equipe médica e considerar Doppler.",
-            "Reforçar curativo e aplicar compressa fria, pois é desconforto comum."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": 11,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "O cateter parece mais externo do que ontem. E agora?",
-          "options": [
-            "Se o curativo estiver limpo, não há necessidade de avaliação.",
-            "Suspeitar deslocamento. Medir o comprimento externo do cateter e comparar com o registro anterior."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 12,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Infecção? O que observar?",
-          "options": [
-            "Hiperemia, dor, saída de secreção no ponto de inserção e febre são sinais de possível infecção relacionada ao cateter.",
-            "Apenas dor e coceira são relevantes. Febre isolada não tem relação com o CURA."
+            "O curativo antigo deve ser retirado com cuidado, evitando tocar a parte interna.",
+            "Retirando rapidamente para evitar desconforto do paciente.",
+            "Utilizando solução alcoólica para soltar o curativo.",
+            "Removendo o curativo sem observar a ferida."
           ],
           "correctAnswer": 0
         },
         {
           "id": 13,
-          "reference": "Popp, A. N., Dalla Costa, L., Ruaro, F. C., Becker, K. G., Battisti, G. P., & Perondi, A. R. (2023). Segurança do paciente prematuro na introdução e manutenção do cateter central de inserção periférica. Revista Recien-Revista Científica de Enfermagem, 13(41), 100-110. DOI: 10.24276/rrecien2023.13.41.100-110.",
-          "question": "Missão bônus – Como evitar deslocamento acidental do CURA?",
+          "reference": "61",
+          "question": "Quando aplicar pomadas ou cremes na ferida?",
           "options": [
-            "Fixar bem o curativo, evitar tração e orientar o paciente sobre movimentação do membro com o cateter.",
-            "Não há como evitar deslocamento, pois ocorre espontaneamente."
-          ],
-          "correctAnswer": 0
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Fase 6 — Indicações de Remoção do Cateter CURA",
-      "color": "purple",
-      "questions": [
-        {
-          "id": 1,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Sinais suspeitos! Febre persistente, dor no trajeto e secreção purulenta no local de inserção. Conduta inicial?",
-          "options": [
-            "Trocar o curativo e monitorar, pois sinais locais não justificam retirada.",
-            "Comunicar a equipe médica, coletar hemoculturas e avaliar necessidade de remoção imediata do cateter."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 2,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Obstrução! Sem refluxo e sem passagem de solução, mesmo após lavagem correta. O que fazer?",
-          "options": [
-            "Forçar infusão com soro fisiológico para romper o bloqueio.",
-            "Solicitar retirada; cateter obstruído é cateter perdido."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 3,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Diagnóstico confirmado! Hemocultura positiva com suspeita de infecção relacionada ao cateter. Prioridade?",
-          "options": [
-            "Manter o CURA até o final do antibiótico, já que o acesso está instalado.",
-            "Avaliar gravidade e, se confirmado foco no CURA, planejar remoção e iniciar antibiótico guiado por cultura."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": 4,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Hematoma em expansão! Dor, edema e arroxeamento no membro superior após manipulação. O que pode indicar?",
-          "options": [
-            "Trombose venosa associada ao CURA; suspender uso e investigar clinicamente com possível remoção.",
-            "Hematoma leve; aplicar compressa fria e manter uso normal do cateter."
+            "Pomadas ou cremes prescritos pelo médico devem ser aplicados diretamente na ferida, se necessário.",
+            "Sempre que houver presença de secreção.",
+            "Em qualquer tipo de ferida para acelerar a cicatrização.",
+            "Sempre após a limpeza, independentemente de prescrição."
           ],
           "correctAnswer": 0
         },
         {
-          "id": 5,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Retirada segura! Qual protocolo seguir?",
+          "id": 14,
+          "reference": "66",
+          "question": "A limpeza da ferida deve ser realizada do centro da ferida para a margem?",
           "options": [
-            "Ambiente limpo, técnica asséptica, paciente em posição horizontal, remoção suave e compressão local.",
-            "Pode ser feito com o paciente em pé, com qualquer técnica, desde que ele tolere."
+            "Sim",
+            "Não, deve ser feita da margem para o centro da ferida.",
+            "Não existe ordem correta para a limpeza.",
+            "Deve ser feita apenas ao redor da ferida."
           ],
           "correctAnswer": 0
         },
         {
-          "id": 6,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Pós-retirada! O que fazer no local da punção após remover o CURA?",
+          "id": 15,
+          "reference": "71",
+          "question": "Por que é importante realizar a limpeza da ferida com solução morna?",
           "options": [
-            "Aplicar compressão leve e curativo oclusivo estéril; observar por sangramento ou embolia aérea.",
-            "Deixar o local aberto ao ar para cicatrização espontânea."
+            "A limpeza com solução fria destrói a formação dos macrófagos.",
+            "Porque a solução quente elimina completamente as bactérias.",
+            "Porque a temperatura da solução não interfere na cicatrização.",
+            "Porque a solução fria acelera o processo cicatricial."
           ],
           "correctAnswer": 0
         },
         {
-          "id": 7,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Deslocamento? Marcação externa aumentou 4 cm em relação ao registro anterior. Resposta?",
+          "id": 16,
+          "reference": "76",
+          "question": "Por que é importante realizar o desbridamento das feridas?",
           "options": [
-            "Avaliar localização e considerar suspensão do uso até confirmação; não utilizar como periférico sem avaliação.",
-            "Continuar o uso normalmente, pois a marcação pode variar conforme a movimentação do braço."
+            "Consiste na remoção de tecidos necróticos, evitando complicações como infecções e retardamento da cicatrização.",
+            "Para reduzir a dor do paciente imediatamente.",
+            "Para diminuir o tamanho da ferida em poucos minutos.",
+            "Para melhorar apenas a aparência estética da lesão."
+          ],
+          "correctAnswer": 0,
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/ai-content/images/main/desbridamento.jpg",
+              "alt": "Pinça e bisturi removendo tecido necrótico negro",
+              "caption": "Processo de remoção de tecido desvitalizado"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "reference": "81",
+          "question": "Quais são os principais tipos de desbridamento de feridas?",
+          "options": [
+            "Autolítico, Enzimático, Cirúrgico, Instrumental, Mecânico e Biológico",
+            "Desbridamento superficial, profundo e interno.",
+            "Desbridamento químico, térmico e elétrico.",
+            "Desbridamento agudo, crônico e inflamatório."
           ],
           "correctAnswer": 0
         },
         {
-          "id": 8,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Cateter inativo! Alta da terapia EV há 4 dias e CURA sem uso. O que fazer?",
+          "id": 18,
+          "reference": "86",
+          "question": "O que é desbridamento autolítico?",
           "options": [
-            "Avaliar com a equipe médica e planejar remoção do CURA, evitando risco de infecção e trombose por inutilização.",
-            "Manter o CURA indefinidamente, pois pode ser útil futuramente."
+            "Curativos que mantêm a ferida úmida, promovendo a ação das enzimas naturais do corpo.",
+            "Remoção do tecido necrótico por meio de cirurgia.",
+            "Uso de antibióticos tópicos para dissolver o tecido necrosado.",
+            "Lavagem contínua da ferida com solução antisséptica."
           ],
           "correctAnswer": 0
         },
         {
-          "id": 9,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Rompimento! Cateter rompido na parte externa durante curativo. Conduta imediata?",
+          "id": 19,
+          "reference": "91",
+          "question": "Qual é a diferença entre desbridamento enzimático e desbridamento autolítico?",
           "options": [
-            "Pinçar o cateter próximo à pele, suspender uso e comunicar equipe médica para remoção segura.",
-            "Continuar uso com cuidado e avisar na próxima troca de turno."
+            "O enzimático usa cremes/pomadas com enzimas externas; o autolítico usa enzimas naturais e curativos úmidos.",
+            "Ambos utilizam apenas procedimentos cirúrgicos.",
+            "Ambos dependem exclusivamente de antibióticos sistêmicos.",
+            "Não há diferença entre os dois métodos."
           ],
           "correctAnswer": 0
         },
         {
-          "id": 10,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Diagnóstico diferencial! Qual sinal é suficiente para indicar avaliação da retirada do CURA?",
+          "id": 20,
+          "reference": "97",
+          "question": "Quando o desbridamento cirúrgico é recomendado?",
           "options": [
-            "Edema, dor no trajeto venoso e febre persistente.",
-            "Falta de retorno venoso em um único momento, sem outros sintomas."
+            "Quando há grandes áreas de tecido desvitalizado ou infectado que requerem remoção imediata.",
+            "Apenas em feridas pequenas e superficiais.",
+            "Quando não há presença de tecido necrosado.",
+            "Em qualquer ferida sem necessidade de avaliação clínica."
           ],
           "correctAnswer": 0
         },
         {
-          "id": 11,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Avaliação final! Qual situação NÃO é uma indicação para remoção do CURA?",
+          "id": 21,
+          "reference": "102",
+          "question": "O que é desbridamento mecânico e quais são alguns exemplos?",
           "options": [
-            "Finalização da terapia venosa sem necessidade imediata de uso.",
-            "Paciente com bom estado geral e cateter funcionante que poderá ser utilizado novamente em 2 dias."
+            "Envolve a remoção física de tecido desvitalizado usando métodos como fricção.",
+            "Aplicação de enzimas para dissolver o tecido desvitalizado.",
+            "Uso de medicamentos sistêmicos para remover o tecido necrótico.",
+            "Aplicação de antibióticos tópicos na ferida."
           ],
-          "correctAnswer": 1
+          "correctAnswer": 0,
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/ai-content/images/main/desbridamento_mecanico.jpg",
+              "alt": "Gaze sendo utilizada para fricção em ferida",
+              "caption": "Exemplo de técnica de desbridamento mecânico"
+            }
+          ]
         },
         {
-          "id": 12,
-          "reference": "Godeiro AL, Santos LM, Cavalcanti EF, Pinto JT, Filho JB, Souza AL, Mourad RP.  Intervenção educativa para prevenção da remoção não eletiva do cateter central de inserção periférica em pediatria. Revista de Enfermagem Referência.2024; 6(3), e32841. https://doi.org/10.12707/ RVI23.109.32841",
-          "question": "Missão final – Conduta padrão! Você precisa remover o CURA. O que fazer primeiro?",
+          "id": 22,
+          "reference": "107",
+          "question": "Quais são os principais tipos de coberturas que promovem o desbridamento autolítico?",
           "options": [
-            "Explicar o procedimento ao paciente, posicioná-lo adequadamente, reunir materiais estéreis e proceder com técnica asséptica.",
-            "Retirar rapidamente o cateter antes da troca de plantão para agilizar o atendimento."
+            "Hidrocoloides, Hidrogéis, Gel com solução de Polihexametileno Biguanida",
+            "Gazes secas e compressas de algodão.",
+            "Curativos adesivos simples.",
+            "Bandagens compressivas elásticas."
           ],
-          "correctAnswer": 0
+          "correctAnswer": 0,
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/ai-content/images/main/coberturas_gel.jpg",
+              "alt": "Tubos de hidrogel de diferentes marcas",
+              "caption": "Produtos que auxiliam no desbridamento autolítico"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/ai-content/images/main/hidrocoloide.jpg",
+              "alt": "Curativo hidrocoloide em formato anatômico",
+              "caption": "Exemplo de cobertura oclusiva/semi-oclusiva"
+            }
+          ]
         }
       ]
     }
