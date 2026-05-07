@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useMemo } from 'react'
 import Image from 'next/image'
 import { Button } from '../../components/ui/button'
 import { Card } from '../../components/ui/card'
@@ -38,7 +38,11 @@ function resolveQuestionImageUrl(url: string): string {
 
 function QuestionImage({ url, alt }: QuestionImageProps) {
   const [hasError, setHasError] = useState(false)
-  const resolvedUrl = resolveQuestionImageUrl(url)
+  const resolvedUrl = useMemo(() => resolveQuestionImageUrl(url), [url])
+
+  useEffect(() => {
+    setHasError(false)
+  }, [resolvedUrl])
 
   if (hasError) {
     return (
@@ -56,6 +60,7 @@ function QuestionImage({ url, alt }: QuestionImageProps) {
         src={resolvedUrl}
         alt={alt}
         className='block max-h-56 max-w-full object-contain rounded-xl border border-border bg-background'
+        onLoad={() => setHasError(false)}
         onError={() => setHasError(true)}
       />
     </figure>
@@ -404,10 +409,6 @@ export default function GamePage() {
                 })}
               </div>
             )}
-          </div>
-
-          <div className='text-center text-xs text-muted-foreground font-medium'>
-            Referência: {currentQuestion.reference}
           </div>
         </Card>
       </div>

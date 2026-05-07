@@ -7,7 +7,6 @@
       "questions": [
         {
           "id": 1,
-          "reference": "2",
           "question": "Quais são os principais aspectos a serem avaliados em uma ferida?",
           "options": [
             "Localização da ferida, Tamanho (comprimento, largura e profundidade), Tipo de tecido (necrose, esfacelo, granulação, epitelização), Tipo e quantidade de exsudato, Sinais de infecção e Condição da pele ao redor da ferida",
@@ -36,7 +35,6 @@
         },
         {
           "id": 2,
-          "reference": "7",
           "question": "Antes de realizar a limpeza da ferida, por que é importante avaliá-la?",
           "options": [
             "Durante a avaliação da lesão, o profissional identificará os tipos de tecidos, quantidade e características do exsudato, sinais de infecção e presença de sinais cardinais de infecção.",
@@ -48,7 +46,6 @@
         },
         {
           "id": 3,
-          "reference": "12",
           "question": "Quais são os sinais de infecção em uma ferida que devem ser monitorados?",
           "options": [
             "Vermelhidão ao redor da ferida, Calor local, Dor, Edema, Presença de exsudato purulento e Odor",
@@ -59,12 +56,12 @@
           "correctAnswer": 0,
           "images": [
             {
-              "url": "https://raw.githubusercontent.com/ai-content/images/main/ferida_infeccao_1.jpg",
+              "url": "data/images/image3-1.jpg",
               "alt": "Ferida aberta com fixador externo e sinais de secreção",
               "caption": "Sinais clínicos de infecção local"
             },
             {
-              "url": "https://raw.githubusercontent.com/ai-content/images/main/ferida_infeccao_2.jpg",
+              "url": "data/images/image3-2.jpg",
               "alt": "Lesão com hiperemia perilesional e exsudato",
               "caption": "Sinais cardinais de inflamação e infecção"
             }
@@ -72,7 +69,6 @@
         },
         {
           "id": 4,
-          "reference": "17",
           "question": "Quais os tipos de tecidos presentes na ferida?",
           "options": [
             "Tecido de granulação, Tecido necrótico, Esfacelo, Tecido epitelial",
@@ -83,17 +79,17 @@
           "correctAnswer": 0,
           "images": [
             {
-              "url": "https://raw.githubusercontent.com/ai-content/images/main/tecido_misto_1.jpg",
+              "url": "data/images/image4-1.jpg",
               "alt": "Ferida no calcanhar com necrose e granulação",
               "caption": "Identificação de diferentes tipos de tecidos"
             },
             {
-              "url": "https://raw.githubusercontent.com/ai-content/images/main/tecido_granulacao.jpg",
+              "url": "data/images/image4-2.jpg",
               "alt": "Ferida com tecido de granulação vermelho vivo",
               "caption": "Presença predominante de tecido de granulação"
             },
             {
-              "url": "https://raw.githubusercontent.com/ai-content/images/main/tecido_esfacelo.jpg",
+              "url": "data/images/image4-3.jpg",
               "alt": "Ferida com presença de esfacelo amarelado",
               "caption": "Identificação de esfacelo em região genital"
             }
@@ -101,7 +97,6 @@
         },
         {
           "id": 5,
-          "reference": "22",
           "question": "Quais os tipos de exsudato presentes em uma ferida?",
           "options": [
             "Exsudato seroso, Exsudato sanguinolento, Exsudato serossanguinolento, Exsudato purulento e Exsudato fibrinoso",
@@ -113,7 +108,6 @@
         },
         {
           "id": 6,
-          "reference": "27",
           "question": "Quais são as etapas para a limpeza de uma ferida?",
           "options": [
             "Higienização das mãos, Uso de luvas, Preparação dos materiais, Escolha da técnica e da solução conforme avaliação.",
@@ -125,7 +119,6 @@
         },
         {
           "id": 7,
-          "reference": "32",
           "question": "Por que é importante realizar a limpeza da ferida com técnicas adequadas?",
           "options": [
             "Remoção de corpos estranhos, bactérias, exsudato e resíduos de agentes tópicos.",
@@ -137,7 +130,6 @@
         },
         {
           "id": 8,
-          "reference": "37",
           "question": "Como deve ser realizada a irrigação da ferida?",
           "options": [
             "A irrigação deve ser feita com uma seringa 40x12 e soro fisiológico, mantendo uma distância de aproximadamente 15 cm da ferida.",
@@ -148,12 +140,12 @@
           "correctAnswer": 0,
           "images": [
             {
-              "url": "https://raw.githubusercontent.com/ai-content/images/main/irrigacao_1.jpg",
+              "url": "data/images/image8-1.jpg",
               "alt": "Irrigação de ferida com seringa e agulha",
               "caption": "Técnica de limpeza por irrigação"
             },
             {
-              "url": "https://raw.githubusercontent.com/ai-content/images/main/irrigacao_2.jpg",
+              "url": "data/images/image8-2.jpg",
               "alt": "Irrigação de cavidade com soro",
               "caption": "Uso de jato sob pressão para limpeza"
             }
@@ -161,7 +153,6 @@
         },
         {
           "id": 9,
-          "reference": "42",
           "question": "Por que é importante evitar realizar a limpeza da ferida com tecido de granulação utilizando gazes ou compressas?",
           "options": [
             "Destrói a formação do tecido de granulação (fibroblastos e angiogênese) presente na lesão.",
@@ -173,7 +164,6 @@
         },
         {
           "id": 10,
-          "reference": "47",
           "question": "Qual a solução recomendada para a limpeza de feridas com presença de tecido de granulação?",
           "options": [
             "Solução salina (soro fisiológico) e PHMB (Polihexametileno Biguanida)",
@@ -185,7 +175,6 @@
         },
         {
           "id": 11,
-          "reference": "51",
           "question": "Quando deve-se usar soluções antissépticas na limpeza de feridas?",
           "options": [
             "Somente em feridas com sinais de infecção e presença de exsudato purulento.",
@@ -197,7 +186,6 @@
         },
         {
           "id": 12,
-          "reference": "56",
           "question": "Como deve ser feita a remoção do curativo antigo?",
           "options": [
             "O curativo antigo deve ser retirado com cuidado, evitando tocar a parte interna.",
@@ -209,7 +197,6 @@
         },
         {
           "id": 13,
-          "reference": "61",
           "question": "Quando aplicar pomadas ou cremes na ferida?",
           "options": [
             "Pomadas ou cremes prescritos pelo médico devem ser aplicados diretamente na ferida, se necessário.",
@@ -221,7 +208,6 @@
         },
         {
           "id": 14,
-          "reference": "66",
           "question": "A limpeza da ferida deve ser realizada do centro da ferida para a margem?",
           "options": [
             "Sim",
@@ -233,7 +219,6 @@
         },
         {
           "id": 15,
-          "reference": "71",
           "question": "Por que é importante realizar a limpeza da ferida com solução morna?",
           "options": [
             "A limpeza com solução fria destrói a formação dos macrófagos.",
@@ -245,7 +230,6 @@
         },
         {
           "id": 16,
-          "reference": "76",
           "question": "Por que é importante realizar o desbridamento das feridas?",
           "options": [
             "Consiste na remoção de tecidos necróticos, evitando complicações como infecções e retardamento da cicatrização.",
@@ -256,7 +240,7 @@
           "correctAnswer": 0,
           "images": [
             {
-              "url": "https://raw.githubusercontent.com/ai-content/images/main/desbridamento.jpg",
+              "url": "data/images/image16-1.jpg",
               "alt": "Pinça e bisturi removendo tecido necrótico negro",
               "caption": "Processo de remoção de tecido desvitalizado"
             }
@@ -264,7 +248,6 @@
         },
         {
           "id": 17,
-          "reference": "81",
           "question": "Quais são os principais tipos de desbridamento de feridas?",
           "options": [
             "Autolítico, Enzimático, Cirúrgico, Instrumental, Mecânico e Biológico",
@@ -276,7 +259,6 @@
         },
         {
           "id": 18,
-          "reference": "86",
           "question": "O que é desbridamento autolítico?",
           "options": [
             "Curativos que mantêm a ferida úmida, promovendo a ação das enzimas naturais do corpo.",
@@ -288,7 +270,6 @@
         },
         {
           "id": 19,
-          "reference": "91",
           "question": "Qual é a diferença entre desbridamento enzimático e desbridamento autolítico?",
           "options": [
             "O enzimático usa cremes/pomadas com enzimas externas; o autolítico usa enzimas naturais e curativos úmidos.",
@@ -300,7 +281,6 @@
         },
         {
           "id": 20,
-          "reference": "97",
           "question": "Quando o desbridamento cirúrgico é recomendado?",
           "options": [
             "Quando há grandes áreas de tecido desvitalizado ou infectado que requerem remoção imediata.",
@@ -312,7 +292,6 @@
         },
         {
           "id": 21,
-          "reference": "102",
           "question": "O que é desbridamento mecânico e quais são alguns exemplos?",
           "options": [
             "Envolve a remoção física de tecido desvitalizado usando métodos como fricção.",
@@ -323,7 +302,7 @@
           "correctAnswer": 0,
           "images": [
             {
-              "url": "https://raw.githubusercontent.com/ai-content/images/main/desbridamento_mecanico.jpg",
+              "url": "data/images/image21-1.jpg",
               "alt": "Gaze sendo utilizada para fricção em ferida",
               "caption": "Exemplo de técnica de desbridamento mecânico"
             }
@@ -331,7 +310,6 @@
         },
         {
           "id": 22,
-          "reference": "107",
           "question": "Quais são os principais tipos de coberturas que promovem o desbridamento autolítico?",
           "options": [
             "Hidrocoloides, Hidrogéis, Gel com solução de Polihexametileno Biguanida",
@@ -342,12 +320,12 @@
           "correctAnswer": 0,
           "images": [
             {
-              "url": "https://raw.githubusercontent.com/ai-content/images/main/coberturas_gel.jpg",
+              "url": "data/images/image22-1.jpg",
               "alt": "Tubos de hidrogel de diferentes marcas",
               "caption": "Produtos que auxiliam no desbridamento autolítico"
             },
             {
-              "url": "https://raw.githubusercontent.com/ai-content/images/main/hidrocoloide.jpg",
+              "url": "data/images/image22-2.png",
               "alt": "Curativo hidrocoloide em formato anatômico",
               "caption": "Exemplo de cobertura oclusiva/semi-oclusiva"
             }

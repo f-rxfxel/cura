@@ -2,19 +2,8 @@ import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import Link from 'next/link'
 import { ArrowLeft, BookOpen } from 'lucide-react'
-import questionsData from '@/data/questions.json'
 
 export default function ReferencesPage() {
-  const references = Array.from(
-    new Set(
-      questionsData.phases.flatMap((phase) =>
-        phase.questions
-          .map((question) => question.reference?.trim())
-          .filter((reference) => Boolean(reference))
-      )
-    )
-  )
-
   return (
     <div className='min-h-screen p-4'>
       <div className='max-w-2xl mx-auto py-8'>
@@ -42,22 +31,23 @@ export default function ReferencesPage() {
             </p>
 
             <div className='mt-8 p-6 bg-muted rounded-xl space-y-4'>
-              {references.length > 0 ? (
-                <ol className='space-y-4 list-decimal list-inside'>
-                  {references.map((reference, index) => (
-                    <li
-                      key={`${index}-${reference}`}
-                      className='text-sm text-muted-foreground italic leading-relaxed'
-                    >
-                      {reference}
-                    </li>
-                  ))}
-                </ol>
-              ) : (
-                <p className='text-sm text-muted-foreground italic'>
-                  Nenhuma referência encontrada no banco de perguntas.
-                </p>
-              )}
+              <ol className='space-y-4 list-decimal list-inside'>
+                <li className='text-sm text-muted-foreground italic leading-relaxed'>
+                  Ringblom et al., 2024. <strong>Wound cleansing solutions versus normal saline in diabetic foot ulcers – systematic review.</strong> Mostra que soro fisiológico ainda é a solução padrão por segurança e custo.
+                </li>
+
+                <li className='text-sm text-muted-foreground italic leading-relaxed'>
+                  Watson et al., 2024. <strong>Comparison of antimicrobial efficacy of wound cleansing solutions focusing on PHMB.</strong> Demonstra alta eficácia do PHMB contra biofilme.
+                </li>
+
+                <li className='text-sm text-muted-foreground italic leading-relaxed'>
+                  Liu et al., 2024. <strong>Ultrasound-assisted wound debridement in diabetic foot ulcers – systematic review.</strong> Mostra que desbridamento por ultrassom melhora cicatrização.
+                </li>
+
+                <li className='text-sm text-muted-foreground italic leading-relaxed'>
+                  Rajhathy & LeBlanc, 2024. <strong>Debridement: Canadian Best Practice Recommendations for Nurses.</strong> Diretrizes internacionais para desbridamento realizado por enfermeiros.
+                </li>
+              </ol>
             </div>
           </div>
         </Card>
