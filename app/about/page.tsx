@@ -62,7 +62,7 @@ export default function AboutPage() {
                     Tempo Limitado
                   </h3>
                   <p className='text-sm text-muted-foreground'>
-                    Você tem apenas 15 segundos para responder cada pergunta.
+                    Você tem apenas 30 segundos para responder cada pergunta.
                     Pense rápido!
                   </p>
                 </div>
