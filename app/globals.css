@@ -175,3 +175,12 @@
 .animate-bounce-in {
   animation: bounce-in 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
+/* Background for menu screens (uses public/background.png) */
+.menu-bg {
+  background-image: url('/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
