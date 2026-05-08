@@ -312,7 +312,7 @@ export default function GamePage() {
           {!showingQuestion && (
             <Timer
               key={timerKey}
-              duration={15}
+              duration={30}
               onTimeout={handleTimeout}
               isActive={isTimerActive}
             />

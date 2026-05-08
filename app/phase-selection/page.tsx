@@ -904,22 +904,22 @@ export default function PhaseSelectionPage() {
           <div className="pointer-events-none absolute left-0 top-32 w-32 opacity-95">
             <Image src="/segurando-cateter.png" alt="Enfermeira" width={128} height={256} />
           </div>
-          <div className="pointer-events-none absolute right-4 top-[18%] w-32 opacity-85">
+          <div className="pointer-events-none absolute right-4 top-[28%] w-32 opacity-85">
             <Image src="/explicando.png" alt="Enfermeira" width={128} height={256} />
           </div>
-          <div className="pointer-events-none absolute left-6 top-[27%] w-32 opacity-85">
+          {/* <div className="pointer-events-none absolute left-6 top-[27%] w-32 opacity-85">
             <Image src="/feliz.png" alt="Enfermeira" width={128} height={256} />
-          </div>
-          <div className="pointer-events-none absolute right-0 top-[36%] w-32 opacity-90">
+          </div> */}
+          {/* <div className="pointer-events-none absolute right-0 top-[36%] w-32 opacity-90">
             <Image src="/neutro.png" alt="Enfermeira" width={128} height={256} />
-          </div>
-          <div className="pointer-events-none absolute right-5 top-[49%] w-32 opacity-85">
+          </div> */}
+          {/* <div className="pointer-events-none absolute right-5 top-[49%] w-32 opacity-85">
             <Image src="/pensando.png" alt="Enfermeira" width={128} height={256} />
-          </div>
-          <div className="pointer-events-none absolute left-2 top-[62%] w-32 opacity-85">
+          </div> */}
+          <div className="pointer-events-none absolute left-2 top-[42%] w-32 opacity-85">
             <Image src="/contentamento.png" alt="Enfermeira" width={128} height={256} />
           </div>
-          <div className="pointer-events-none absolute right-6 top-[74%] w-32 opacity-85">
+          <div className="pointer-events-none absolute right-6 top-[59%] w-32 opacity-85">
             <Image src="/explicando2.png" alt="Enfermeira" width={128} height={256} />
           </div>
           <div className="pointer-events-none absolute left-5 bottom-44 w-32 opacity-90">

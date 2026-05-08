@@ -41,10 +41,8 @@ export default function IntroPage() {
           </div>
 
           <div className='text-center space-y-1'>
-            <p className='text-base md:text-lg text-foreground font-medium'>Leila Cristina dos Santos Vieira</p>
+            <p className='text-base md:text-lg text-foreground font-medium'>Leidiane Aparecida Costa dos Santos</p>
             <p className='text-base md:text-lg text-foreground font-medium'>Geraldo Magela Salomé</p>
-            <p className='text-base md:text-lg text-foreground font-medium'>Jaqueline Helen Viana</p>
-            <p className='text-base md:text-lg text-foreground font-medium'>Ana Beatriz Alkmim Teixeira Loyola</p>
           </div>
 
           <div className='flex items-center justify-center gap-8 md:gap-12'>
