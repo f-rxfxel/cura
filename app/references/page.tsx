@@ -16,10 +16,10 @@ export default function ReferencesPage() {
 
         <Card className='p-8 bg-card border-2 border-border shadow-xl'>
           <div className='flex items-center gap-3'>
-            <div className='w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center'>
+            <div className='w-12 h-12 rounded-xl bg-linear-to-br from-primary to-secondary flex items-center justify-center'>
               <BookOpen className='h-6 w-6 text-white' />
             </div>
-            <h1 className='text-4xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent'>
+            <h1 className='text-4xl font-bold bg-linear-to-r from-primary to-secondary bg-clip-text text-transparent'>
               Referências
             </h1>
           </div>
