@@ -36,7 +36,7 @@ export default function IntroPage() {
               </h1>
             </div>
             <p className={`text-muted-foreground text-xl ${rubik.className}`}>
-              Aprenda a Cuidar de Feridas
+              Aprenda a Cuidar de Ferida
             </p>
           </div>
 
@@ -47,7 +47,7 @@ export default function IntroPage() {
 
           <div className='flex items-center justify-center gap-8 md:gap-12'>
             <Image
-              src='/logo-mestrado.png'
+              src='/Fapemig.png'
               alt='Logo Mestrado'
               width={120}
               height={72}

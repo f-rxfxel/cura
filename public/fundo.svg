@@ -1,0 +1,24 @@
+<svg width="400" height="800" viewBox="0 0 400 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="200" y1="0" x2="200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCF3EB"/>
+      <stop offset="0.5" stop-color="#FCD5BD"/>
+      <stop offset="1" stop-color="#FCF3EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="800" fill="url(#paint0_linear_1_2)"/>
+
+  <g opacity="0.3">
+    <ellipse cx="150" cy="150" rx="100" ry="80" stroke="#F6C5B2" stroke-width="1.5"/>
+    <ellipse cx="150" cy="150" rx="90" ry="70" stroke="#F6C5B2" stroke-width="1.5"/>
+    <ellipse cx="150" cy="150" rx="80" ry="60" stroke="#F6C5B2" stroke-width="1.5"/>
+    <ellipse cx="150" cy="150" rx="70" ry="50" stroke="#F6C5B2" stroke-width="1.5"/>
+    <ellipse cx="150" cy="150" rx="60" ry="40" stroke="#F6C5B2" stroke-width="1.5"/>
+
+    <ellipse cx="300" cy="650" rx="120" ry="100" stroke="#F6C5B2" stroke-width="1.5"/>
+    <ellipse cx="300" cy="650" rx="110" ry="90" stroke="#F6C5B2" stroke-width="1.5"/>
+    <ellipse cx="300" cy="650" rx="100" ry="80" stroke="#F6C5B2" stroke-width="1.5"/>
+    <ellipse cx="300" cy="650" rx="90" ry="70" stroke="#F6C5B2" stroke-width="1.5"/>
+    <ellipse cx="300" cy="650" rx="80" ry="60" stroke="#F6C5B2" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -158,7 +158,7 @@ export default function HomePage() {
             </h1>
           </div>
           <p className={`text-muted-foreground text-xl ${rubik.className}`}>
-            Aprenda a Cuidar de Feridas
+            Aprenda a Cuidar de Ferida
           </p>
         </div>
 

@@ -7,7 +7,7 @@ import MenuBackground from '../components/menu-background'
 
 export const metadata: Metadata = {
   title: 'CURA',
-  description: 'Aprenda a Cuidar de Feridas CURA',
+  description: 'Aprenda a Cuidar de Ferida CURA',
 }
 
 export default function RootLayout({
