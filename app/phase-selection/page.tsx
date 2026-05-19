@@ -581,7 +581,7 @@ export default function PhaseSelectionPage() {
   const completedPhaseCount = phases.filter((phase) => phase.status === 'completed').length
 
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-[linear-gradient(180deg,#f7fbff_0%,#e0f2fe_45%,#dbeafe_100%)]">
+    <div className="relative h-screen w-full overflow-hidden bg-slate-50">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-[-8%] top-12 h-44 w-44 rounded-full bg-white/70 blur-3xl" />
         <div className="absolute right-[-10%] top-36 h-52 w-52 rounded-full bg-cyan-100/70 blur-3xl" />
@@ -620,7 +620,18 @@ export default function PhaseSelectionPage() {
         className="h-full w-full overflow-y-auto overflow-x-hidden pt-44"
         style={{ WebkitOverflowScrolling: 'touch' }}
       >
-        <div className="relative w-full" style={{ height: svgHeight + 36 }}>
+        <div className="relative w-full overflow-hidden" style={{ height: svgHeight + 36 }}>
+          <div
+            className="absolute inset-0"
+            aria-hidden="true"
+            style={{
+              backgroundImage: 'url(/fundo.svg)',
+              backgroundRepeat: 'repeat',
+              backgroundPosition: 'center top',
+              backgroundSize: '400px 800px',
+            }}
+          />
+
           <svg
             width="100%"
             height={svgHeight + 36}
@@ -636,15 +647,6 @@ export default function PhaseSelectionPage() {
                 <stop offset="100%" stopColor="#0F172A" stopOpacity="0.06" />
               </linearGradient>
             </defs>
-
-            {territoryRegions.map((territory) => (
-              <path
-                key={`territory-${territory.phaseIndex}`}
-                d={territory.path}
-                fill={territory.color}
-                opacity={territory.fillOpacity}
-              />
-            ))}
 
             <rect x="0" y="0" width={ROAD_WIDTH} height={svgHeight + 36} fill="url(#territoryShade)" />
 
@@ -901,11 +903,11 @@ export default function PhaseSelectionPage() {
             </g>
           </svg>
 
-          <div className="pointer-events-none absolute left-0 top-32 w-32 opacity-95">
-            <Image src="/segurando-cateter.png" alt="Enfermeira" width={128} height={256} />
+          <div className="pointer-events-none absolute left-0 top-32 w-24 opacity-95 sm:w-28">
+            <Image src="/segurando-cateter.png" alt="Enfermeira" width={96} height={192} />
           </div>
-          <div className="pointer-events-none absolute right-4 top-[28%] w-32 opacity-85">
-            <Image src="/explicando.png" alt="Enfermeira" width={128} height={256} />
+          <div className="pointer-events-none absolute right-4 top-[28%] w-24 opacity-85 sm:w-28">
+            <Image src="/explicando.png" alt="Enfermeira" width={96} height={192} />
           </div>
           {/* <div className="pointer-events-none absolute left-6 top-[27%] w-32 opacity-85">
             <Image src="/feliz.png" alt="Enfermeira" width={128} height={256} />
@@ -916,14 +918,14 @@ export default function PhaseSelectionPage() {
           {/* <div className="pointer-events-none absolute right-5 top-[49%] w-32 opacity-85">
             <Image src="/pensando.png" alt="Enfermeira" width={128} height={256} />
           </div> */}
-          <div className="pointer-events-none absolute left-2 top-[42%] w-32 opacity-85">
-            <Image src="/contentamento.png" alt="Enfermeira" width={128} height={256} />
+          <div className="pointer-events-none absolute left-2 top-[42%] w-24 opacity-85 sm:w-28">
+            <Image src="/contentamento.png" alt="Enfermeira" width={96} height={192} />
           </div>
-          <div className="pointer-events-none absolute right-6 top-[59%] w-32 opacity-85">
-            <Image src="/explicando2.png" alt="Enfermeira" width={128} height={256} />
+          <div className="pointer-events-none absolute right-6 top-[59%] w-24 opacity-85 sm:w-28">
+            <Image src="/explicando2.png" alt="Enfermeira" width={96} height={192} />
           </div>
-          <div className="pointer-events-none absolute left-5 bottom-44 w-32 opacity-90">
-            <Image src="/colocando-luva.png" alt="Enfermeira" width={128} height={256} />
+          <div className="pointer-events-none absolute left-5 bottom-44 w-24 opacity-90 sm:w-28">
+            <Image src="/colocando-luva.png" alt="Enfermeira" width={96} height={192} />
           </div>
         </div>
       </div>
