@@ -594,7 +594,7 @@ export default function PhaseSelectionPage() {
           <div className="flex items-start justify-between gap-4">
             <div>
               <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-500">
-                Jornada CURA
+                Jornada CicatriGame
               </p>
               <h1 className="text-xl font-black text-slate-900">Mapa de fases</h1>
             </div>

@@ -23,7 +23,7 @@ const rubik = Rubik({
 
 const tutorialSteps = [
   {
-    text: "Olá! Sou a enfermeira Maria e vou te guiar nesta jornada de aprendizado sobre o CURA!",
+    text: "Olá! Sou a enfermeira Maria e vou te guiar nesta jornada de aprendizado sobre o CicatriGame!",
     image: "/explicando.png"
   },
   {
@@ -35,7 +35,7 @@ const tutorialSteps = [
     image: "/explicando.png"
   },
   {
-    text: "Boa sorte! Vamos começar sua jornada de conhecimento sobre o CURA!",
+    text: "Boa sorte! Vamos começar sua jornada de conhecimento sobre o CicatriGame!",
     image: "/feliz.png"
   }
 ]
@@ -146,7 +146,7 @@ export default function HomePage() {
         <div className='text-center my-4 animate-slide-up'>
           <img
             src='/logo.png'
-            alt='Logo CURA'
+            alt='Logo CicatriGame'
             className='mx-auto w-32 h-32 object-contain mb-4'
           />
           <div className='relative'>
@@ -154,11 +154,11 @@ export default function HomePage() {
             <h1
               className={`text-4xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent relative ${quicksand.className}`}
             >
-              CURA
+              CicatriGame
             </h1>
           </div>
           <p className={`text-muted-foreground text-xl ${rubik.className}`}>
-            Aprenda a Cuidar de Ferida
+            Limpeza Segura de Feridas
           </p>
         </div>
 

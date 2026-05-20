@@ -91,7 +91,7 @@ export async function POST(request: NextRequest) {
     doc.setFontSize(22)
     doc.setTextColor(0, 164, 164)
     doc.setFont('helvetica', 'bold')
-    doc.text('CURA', pageWidth / 2, 118, { align: 'center' })
+    doc.text('CicatriGame', pageWidth / 2, 118, { align: 'center' })
 
     // Performance box
     doc.setFillColor(230, 250, 250)
@@ -122,7 +122,7 @@ export async function POST(request: NextRequest) {
     doc.setTextColor(120, 120, 120)
     doc.setFont('helvetica', 'italic')
     doc.text(
-      'Este certificado atesta a conclusão bem-sucedida de todas as fases do CURA,',
+      'Este certificado atesta a conclusão bem-sucedida de todas as fases do CicatriGame,',
       pageWidth / 2,
       175,
       {
@@ -130,7 +130,7 @@ export async function POST(request: NextRequest) {
       }
     )
     doc.text(
-      'demonstrando conhecimento em definição do cateter CURA, indicações para inserção,',
+      'demonstrando conhecimento em definição do cateter CicatriGame, indicações para inserção,',
       pageWidth / 2,
       181,
       { align: 'center' }

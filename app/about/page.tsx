@@ -25,7 +25,7 @@ export default function AboutPage() {
                 Objetivo
               </h2>
               <p className='text-muted-foreground leading-relaxed'>
-                O <b>CURA</b> é um aplicativo educacional gamificado que
+                O <b>CicatriGame</b> é um aplicativo educacional gamificado que
                 testa seus conhecimentos através de 6 fases. Cada fase apresenta
                 desafios únicos com perguntas de múltipla escolha, onde você
                 precisa demonstrar domínio do cateter venoso central de inserção
@@ -78,7 +78,7 @@ export default function AboutPage() {
                   <h3 className='font-bold text-foreground mb-1'>6 Fases</h3>
                   <p className='text-sm text-muted-foreground'>
                     Cada fase aborda um tema específico: definição do cateter
-                    CURA, indicações para inserção, técnica de passagem,
+                    CicatriGame, indicações para inserção, técnica de passagem,
                     cuidados de manutenção, Fisiologia Vascular e critérios para remoção.
                   </p>
                 </div>

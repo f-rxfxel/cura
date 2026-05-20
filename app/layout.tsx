@@ -6,8 +6,8 @@ import './globals.css'
 import MenuBackground from '../components/menu-background'
 
 export const metadata: Metadata = {
-  title: 'CURA',
-  description: 'Aprenda a Cuidar de Ferida CURA',
+  title: 'CicatriGame',
+  description: 'Limpeza Segura de Feridas',
 }
 
 export default function RootLayout({

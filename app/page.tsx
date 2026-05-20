@@ -24,7 +24,7 @@ export default function IntroPage() {
           <div className='text-center my-4 animate-slide-up'>
             <img
               src='/logo.png'
-              alt='Logo CURA'
+              alt='Logo CicatriGame'
               className='mx-auto w-32 h-32 object-contain mb-4'
             />
             <div className='relative'>
@@ -32,11 +32,11 @@ export default function IntroPage() {
               <h1
                 className={`text-4xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent relative ${quicksand.className}`}
               >
-                CURA
+                CicatriGame
               </h1>
             </div>
             <p className={`text-muted-foreground text-xl ${rubik.className}`}>
-              Aprenda a Cuidar de Ferida
+              Limpeza Segura de Feridas
             </p>
           </div>
 
